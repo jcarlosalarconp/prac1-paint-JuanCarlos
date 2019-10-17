@@ -1,0 +1,165 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paint</title>
+  </head>
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <body>
+    <!-- CONTAINER -->
+    <div id="container">
+      <!-- LEFTSIDEBAR -->
+      <div id="leftsidebar">
+        <ul>
+          <!-- SQUARE -->
+          <li>
+            <img
+              src="img/emptySquare.png"
+              id="squareButton"
+              alt="Square"
+              class="leftimg"
+              onclic="tool='square'"
+            />
+            <p>Square</p>
+          </li>
+          <!-- CIRCLE -->
+          <li>
+            <img
+              src="img/circle.png"
+              id="circleButton"
+              alt="Circle"
+              class="leftimg"
+            />
+            <p>Circle</p>
+          </li>
+          <!-- TRIANGLE -->
+          <li>
+            <img
+              src="img/triangle.png"
+              id="triangleButton"
+              alt="Triangle"
+              class="leftimg"
+            />
+            <p>Triangle</p>
+          </li>
+          <!-- HEART -->
+          <li>
+            <img
+              src="img/heart.png"
+              id="heartButton"
+              alt="Heart"
+              class="leftimg"
+            />
+            <p>Heart</p>
+          </li>
+          <!-- TEXT -->
+          <li>
+            <img
+              src="img/text.png"
+              id="textButton"
+              alt="Text"
+              class="leftimg"
+            />
+            <p>Text</p>
+          </li>
+          <!-- LINE -->
+          <li>
+            <img
+              src="img/line.png"
+              id="lineButton"
+              alt="Line"
+              class="leftimg"
+              onclic="tool='line'"
+            />
+            <p>Line</p>
+          </li>
+          <!-- PENCIL -->
+          <li>
+            <img
+              src="img/pencil.png"
+              id="pencilButton"
+              alt="Pencil"
+              class="leftimg"
+              onclic="tool='pencil'"
+            />
+            <p>Pencil</p>
+          </li>
+          <!-- ERASE -->
+          <li>
+            <img
+              src="img/erase.png"
+              id="eraseButton"
+              alt="Erase"
+              class="leftimg"
+              onclic="tool='erase'"
+            />
+            <p>Erase</p>
+          </li>
+        </ul>
+      </div>
+      <!-- CENTER -->
+      <div id="center">
+        <!-- CANVAS -->
+        <canvas id="myCanvas" width="800" height="500"> </canvas><br>
+      </div>
+      <!-- RIGHTSIDEBAR -->
+      <div id="rightsidebar">
+        <ul>
+          <!-- RGBPICKER -->
+          <li>
+            <form action="/action_page.php">
+              <input type="color" name="favcolor" id="rgbButton" value="#000000">
+            </form>
+            <p>RGB Picker</p>
+          </li>
+          <!-- SIZE -->
+          <li>
+            <div class="row">
+              <div class="column">
+                <img src=img/plus.png id=plusButton alt="Plus" class="plus">
+              </div>
+              <div class="column">
+                <img src=img/minus.png id=minusButton alt="Minus" class="minus">
+              </div>
+            </div>
+            <p>Size</p>
+          </li>
+          <!-- EMPTY OR FILL -->
+          <li>
+            <div class="row">
+              <div class="column">
+                <img src=img/emptySquare.png id=emptyButton alt="Empty" class="empty">
+              </div>
+              <div class="column">
+                <img src=img/square.png id=fillButton alt="Fill" class="fill">
+              </div>
+            </div>
+            <p>Empty or Fill</p>
+          </li>
+          <!-- IMPORT IMAGE -->
+          <li>
+            <img src=img/import-Image.png id=importButton alt="Import Image"
+            class="rightimg">
+            <p>Import Image</p>
+          </li>
+          <!-- EXPORT IMAGE -->
+          <li>
+            <img src=img/export-Image.png id=exportButton alt="Export Image"
+            class="export">
+            <p>Export Image</p>
+          </li>
+          <!-- RESTART -->
+          <li>
+            <img src=img/restart.png id=restartButton alt="Restart"
+            class="rightimg">
+            <p>Restart</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- LINK JAVASCRIPT -->
+    <script src="paintScript.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+new View(window.document);
