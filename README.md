@@ -1,15 +1,15 @@
 # Paint
 https://paint-sand-iota.vercel.app/paintView.html
 
-✅ Uso de Formas (cuadrado, círculo, triángulo y corazón)
-✅ Texto
-✅ Lineas
-✅ Lápiz
-✅ Goma
-✅ Colores
-✅ Tamaño
-✅ Importar imagenes
-✅ Exportar dibujo
+✅ Uso de Formas (cuadrado, círculo, triángulo y corazón) </br>
+✅ Texto </br>
+✅ Lineas </br>
+✅ Lápiz </br>
+✅ Goma </br>
+✅ Colores </br>
+✅ Tamaño </br>
+✅ Importar imagenes </br>
+✅ Exportar dibujo </br>
 
 # Preview
 ![paint-blank-preview](https://github.com/jcarlosalarconp/prac1-paint-JuanCarlos/assets/48281276/d2daf5b0-1184-4be8-95e8-b9ce2f28b288)
